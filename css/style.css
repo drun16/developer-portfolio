@@ -212,3 +212,66 @@ section {
 .footer__socials a:hover {
     color: var(--accent-color);
 }
+
+/* =================== RESPONSIVENESS (MEDIA QUERIES) =================== */
+
+/* For medium devices (tablets, 768px and down) */
+@media screen and (max-width: 768px) {
+    .nav__menu {
+        position: fixed;
+        top: -100%; /* Hide the menu above the screen */
+        left: 0;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding: 2rem 0;
+        text-align: center;
+        border-radius: 0 0 1rem 1rem;
+        transition: top 0.4s; /* Animation for sliding in */
+    }
+
+    /* This class will be added with JavaScript to show the menu */
+    .show-menu {
+        top: 4.5rem; /* Slide the menu down into view */
+    }
+
+    .nav__list {
+        flex-direction: column; /* Stack the links vertically */
+        row-gap: 1.5rem;
+    }
+
+    .nav__toggle {
+        display: block; /* Show the hamburger icon */
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
+
+
+/* For small devices (phones, 480px and down) */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 1rem; /* Less padding on the sides */
+    }
+
+    .hero__title {
+        font-size: 2.5rem; /* Make the main title smaller */
+    }
+
+    .hero__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .section__title {
+        font-size: 1.75rem; /* Make section titles smaller */
+    }
+
+    .project__card {
+        flex-basis: 100%; /* Make project cards take full width */
+    }
+}
+
+
+/* Hide the toggle on large screens */
+.nav__toggle {
+    display: none;
+}
