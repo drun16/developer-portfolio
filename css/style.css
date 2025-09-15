@@ -1,0 +1,214 @@
+/* =================== GOOGLE FONTS =================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* =================== CSS VARIABLES =================== */
+:root {
+    /* Colors */
+    --primary-color: #0e2431;
+    --secondary-color: #6a59d1;
+    --accent-color: #704bff;
+    --text-color: #ffffff;
+    --text-color-secondary: #b3b3b3;
+    --background-color: #121212;
+
+    /* Fonts */
+    --body-font: 'Poppins', sans-serif;
+}
+
+/* =================== BASE STYLES =================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =================== REUSABLE CSS CLASSES =================== */
+.container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+}
+
+.section__title {
+    font-size: 2.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--accent-color);
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    transition: background-color .3s;
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* =================== HEADER & NAV =================== */
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.nav {
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.nav__link {
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.nav__link:hover {
+    color: var(--accent-color);
+}
+
+/* =================== SECTION STYLES =================== */
+section {
+    padding: 6rem 0;
+}
+
+/* Hero Section */
+.hero__container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__data {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero__title {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.hero__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.hero__description {
+    margin-bottom: 2.5rem;
+    color: var(--text-color-secondary);
+}
+
+/* Projects Section */
+.projects__container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Allows cards to wrap to the next line */
+}
+
+.project__card {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: .75rem;
+    border: 1px solid var(--secondary-color);
+    flex-basis: 300px; /* Each card will have a base width of 300px */
+    transition: transform .3s;
+}
+
+.project__card:hover {
+    transform: translateY(-5px);
+}
+
+.project__title {
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+}
+
+.project__description {
+    margin-bottom: 1.5rem;
+    color: var(--text-color-secondary);
+}
+
+.project__link {
+    font-weight: 500;
+    color: var(--accent-color);
+}
+
+/* Contact Section */
+.contact__container {
+    text-align: center;
+}
+
+.contact__description {
+    max-width: 500px;
+    margin: 0 auto 2.5rem;
+    color: var(--text-color-secondary);
+}
+
+/* =================== FOOTER =================== */
+.footer {
+    background-color: var(--primary-color);
+    padding: 3rem 0;
+}
+
+.footer__container {
+    text-align: center;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer__socials a:hover {
+    color: var(--accent-color);
+}
