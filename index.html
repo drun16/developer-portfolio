@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Dharun Prashob M M - Developer Portfolio</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <i class="fas fa-bars"></i> 
     </head>
 <body>
 
     <header class="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">Dharun Prashob M M</a>
-            <div class="nav__menu">
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i> </div>
+
+            <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
@@ -24,7 +30,7 @@
 
     <main class="main">
         
-        <section id="home" class="hero">
+        <section id="home" class="hero section">
             <div class="hero__container container">
                 <div class="hero__data">
                     <h1 class="hero__title">Hi, I'm Dharun Prashob M M</h1>
@@ -37,7 +43,7 @@
             </div>
         </section>
 
-        <section id="projects" class="projects">
+        <section id="projects" class="projects section">
             <h2 class="section__title">My Recent Work</h2>
             <div class="projects__container container">
                 
@@ -68,7 +74,7 @@
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        <section id="contact" class="contact section">
             <h2 class="section__title">Contact Me</h2>
             <div class="contact__container container">
                 <p class="contact__description">
@@ -90,6 +96,6 @@
             </ul>
         </div>
     </footer>
-
+   <script src="js/script.js"></script>
     </body>
 </html>
