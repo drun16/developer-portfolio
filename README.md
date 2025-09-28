@@ -1,3 +1,11 @@
+# INTERACTIVE-QUIZ-APPLICATION
+COMPANY: CODTECH IT SOLUTIONS
+NAME: DHARUN PRASHOB M M
+"INTERN ID: CT04DY2328
+DOMAIN: FRONT END DEVELOPMENT
+*DURATION: 4 WEEEKS
+MENTOR: NEELA SANTOSH
+
 # Developer Portfolio Website
 
 A clean, responsive, and modern personal portfolio website built from scratch using HTML, CSS, and JavaScript. This project showcases my skills and recent work to potential employers and collaborators.
