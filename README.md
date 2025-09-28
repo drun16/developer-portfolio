@@ -1,6 +1,4 @@
-Of course. Here is a complete `README.md` file for your new portfolio project. You can create a new file named `README.md` in your main `developer-portfolio` folder and paste this content into it.
 
------
 
 # Developer Portfolio Website
 
