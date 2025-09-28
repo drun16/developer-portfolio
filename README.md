@@ -6,7 +6,7 @@ Of course. Here is a complete `README.md` file for your new portfolio project. Y
 
 A clean, responsive, and modern personal portfolio website built from scratch using HTML, CSS, and JavaScript. This project showcases my skills and recent work to potential employers and collaborators.
 
-**Live Demo:** [https://drun16.github.io/](https://www.google.com/search?q=https://drun16.github.io/)
+**Live Demo:** [https://drun16.github.io/](https://drun16.github.io/developer-portfolio/)
 
 -----
 
