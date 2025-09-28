@@ -1,16 +1,8 @@
-
-
 # Developer Portfolio Website
 
 A clean, responsive, and modern personal portfolio website built from scratch using HTML, CSS, and JavaScript. This project showcases my skills and recent work to potential employers and collaborators.
 
 **Live Demo:** [https://drun16.github.io/](https://drun16.github.io/developer-portfolio/)
-
------
-
-## Screenshot
-
-*(**Note:** You should replace this with an actual screenshot of your finished website\!)*
 
 -----
 
@@ -41,10 +33,10 @@ To view this project locally, you can clone the repository and open the `index.h
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/your-username.github.io.git
+git clone https://github.com/drun16/developer-portfolio.git
 
 # Navigate into the project directory
-cd your-username.github.io
+cd developer-portfolio
 
 # Open index.html in your default web browser
 # On Windows, you might use:
